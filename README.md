@@ -1,5 +1,9 @@
 # Kotlin Burp Jwt Session Token Handler Demo
 
+_By [Nick Coblentz](https://www.linkedin.com/in/ncoblentz/)_
+
+__This Burp Extension is made possible by [Virtue Security](https://www.virtuesecurity.com), the Application Penetration Testing consulting company I work for.__
+
 This project demonstrates how to:
 1. Create a session handling action that extracts a JWT from a login macro response and uses it in future requests both as a cookie and authorization bearer header
 2. Allow the tester to configure the Jwt search pattern, cookie name, and header name + prefix and save it as persistent project-level setting. This makes the extension reusable across multiple applications without having to hard code logic for specific cases.
