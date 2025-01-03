@@ -51,7 +51,7 @@ class JwtTokenHandlerExtension : BurpExtension, SessionHandlingAction {
             // Key for where to save this setting in Burp's persistence store
             "BKSATH.pattern",
             // Default value within the Swign UI Form
-            "\"access_token\" *: *\"([^\"]+)\"",
+            "\"token\" *: *\"([^\"]+)\"",
             // Whether to save it for this specific "PROJECT" or as a global Burp "PREFERENCE"
             ExtensionSettingSaveLocation.PROJECT
         )
